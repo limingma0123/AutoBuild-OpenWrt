@@ -67,6 +67,7 @@ jobs:
         sed -i '11s/#//' feeds.conf.default
         
     - name: 自定义插件主题。
+      working-directory: ./openwrt
       run: |
         cd package
         mkdir openwrt-packages
