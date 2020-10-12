@@ -5,15 +5,15 @@
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
 
-name: Build_my_x86_64
+name: Build_my_x86_64,Add two theme and KoolProxyR
 
 on: 
   release:
     types: [published]
 
-  #push:
-  #  branches: 
-  #    - leon_dev
+  push:
+    branches: 
+      - leon_dev
 
   #schedule:
   #  - cron: 0 8 * * 5
