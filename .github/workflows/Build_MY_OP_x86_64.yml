@@ -5,7 +5,7 @@
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
 
-name: 编译x86更多包,Add more packages  20201015.v1
+name: 编译x86,Add dockerman  20201015.v2
 
 on: 
   release:
