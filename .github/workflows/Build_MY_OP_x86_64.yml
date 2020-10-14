@@ -5,15 +5,15 @@
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
 
-name: 编译x86更多包,Add more packages
+name: 编译x86更多包,Add more packages  20201015.v1
 
 on: 
   release:
     types: [published]
 
-  #push:
-  #  branches: 
-  #    - leon_dev
+  push:
+    branches: 
+      - leon_dev
 
   #schedule:
   #  - cron: 0 8 * * 5
