@@ -11,9 +11,9 @@ on:
   release:
     types: [published]
 
-  push:
-    branches: 
-      - leon_dev
+  #push:
+  #  branches: 
+  #    - leon_dev
 
   #schedule:
   #  - cron: 0 8 * * 5
