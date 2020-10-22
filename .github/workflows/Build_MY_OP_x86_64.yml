@@ -5,15 +5,15 @@
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
 
-name: 编译x86, 20201020.v1
+name: 编译x86, 20201022.v1
 
 on: 
   release:
     types: [published]
 
-  #push:
-  #  branches: 
-  #    - leon_dev
+  push:
+    branches: 
+      - leon_dev
 
   #schedule:
   #  - cron: 0 8 * * 5
