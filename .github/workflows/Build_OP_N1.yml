@@ -5,15 +5,15 @@
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
 
-name: Build_N1
+name: Build_N1 2020.12.26
 
 on: 
   release:
     types: [published]
 
-  #push:
-  #  branches: 
-  #    - leon_dev
+  push:
+    branches: 
+      - leon_dev
 
   #schedule:
   #  - cron: 0 8 * * 5
